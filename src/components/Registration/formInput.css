@@ -1,0 +1,64 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.registration-input {
+  padding: 15px;
+  margin: 2px 0px 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.registration-input-label {
+  font-size: 12px;
+  color: gray;
+}
+
+.registration-span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+.registration-input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+.registration-input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 1rem; /* Gap between grid items */
+  padding: 1rem;
+}
+
+/* Style for each grid item */
+.grid-item {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Two rows, first row for label, second row for input */
+  gap: 0.2rem; /* Gap between label and input */
+}
+
+/* Style for labels */
+.registration-input-label {
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Style for inputs */
+.registration-input {
+  width: 100%;
+  padding: 1rem 0.4rem;
+  font-size: 1.2rem;
+}
+
+.input-required {
+  margin-left: 0.2rem;
+  color: red;
+}

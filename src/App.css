@@ -1,0 +1,163 @@
+@import "css/config.css";
+
+.App {
+  text-align: center;
+}
+
+.login-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.login-background-light {
+  background-image: url("assets/loginLightBg.jpg");
+}
+
+.login-background-dark {
+  background-image: url("assets/loginDarkBg.jpg");
+}
+
+.page-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.PhoneInput {
+  height: 3rem;
+}
+
+.PhoneInputInput {
+  height: 100%;
+  width: 15rem;
+  border-radius: 30px;
+  background: none;
+  transition: 0.25s;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+.PhoneInputInput:focus {
+  width: 16rem;
+  outline: none;
+}
+
+.light-theme .PhoneInputInput {
+  border: 4px solid var(--phone-input-light);
+}
+
+.light-theme .PhoneInputInput:focus {
+  border: 3px solid var(--phone-input-focused-light);
+  background-color: var(--phone-input-bg-focused-dark);
+}
+
+.dark-theme .PhoneInputInput {
+  background-color: var(--phone-input-bg-dark);
+}
+
+.dark-theme .PhoneInputInput:focus {
+  background-color: var(--phone-input-bg-focused-dark);
+}
+
+.dark-theme .PhoneInputInput {
+  border: 4px solid var(--phone-input-dark);
+}
+
+.dark-theme .PhoneInputInput:focus {
+  border: 3px solid var(--phone-input-focused-dark);
+}
+
+.light-theme .PhoneInputCountry {
+  color: #000;
+}
+
+.dark-theme .PhoneInputCountry {
+  color: #fff;
+}
+
+.otp-container {
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  appearance: none;
+}
+
+.otp-container:disabled {
+  background-color: var(--main-table-header);
+}
+
+.otp-container:focus {
+  transform: scale(1.2);
+}
+
+.loginSeparator {
+  border: none;
+  border-bottom: 4px dashed;
+  width: 80%;
+}
+
+.otp-separator {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.otp-separator-light {
+  color: black;
+}
+
+.otp-separator-dark {
+  color: white;
+}
+
+.main-table-cell {
+  padding: 8px 16px;
+}
+
+.secondary-table-cell {
+  padding: 8px 16px;
+}
+
+.sc-eAzDjm:focus {
+  border-color: red;
+}
+
+.registration-link {
+  text-decoration: none;
+}
+
+.registration-link-text {
+  display: inline;
+  border-bottom: 2px solid #deaa88; /* Initial red border color */
+  transition: border-color 0.3s, font-style 0.3s, color 0.3s; /* Added color transition */
+}
+
+.registration-link-text:hover {
+  border-bottom-color: #a6c9f1; /* Change only the border color on hover */
+}
+
+.registration-form {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+
+.registration-title {
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+.registration-submit-btn {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}

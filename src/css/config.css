@@ -1,0 +1,18 @@
+:root {
+    --phone-input-light: rgb(166, 201, 241);
+    --phone-input-focused-light: rgb(139, 168, 183);
+    --phone-input-dark: rgb(139, 168, 183);
+    --phone-input-focused-dark: rgb(166, 201, 241);
+    --phone-input-bg-dark: rgb(215, 219, 221);
+    --phone-input-bg-focused-dark: rgb(240, 240, 240);
+
+    --main-table-header: #dcdcdc;
+    --main-table-row-hover: #f5f5f5;
+    --main-table-icon: #dcdcdc;
+    --secondary-table: #e5e5e5;
+    --secondary-table-row: #f2f2f2;
+    --secondary-table-row-hover: #f5f5f5;
+    --table-row-border: #e0e0e0;
+
+    --tumbleweed: #deaa88;
+}

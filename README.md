@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Online-Waiter-WebApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Web application for displaying created orders in catering establishments in the "Bars" category.
 
-## Available Scripts
+<b>The main focus of the employee (waiter), who uses the web application, is orders preparation, the application should serve as a clear display of orders and their details</b>
+<br>
+Through the web application, waiters can view the created orders. They have the option of rejecting the order or setting the order in a ready state, both cases will result in notifying the waiter who initially created the order. This kind of work results in quick communication and coordination among the staff, which fulfills the main purpose of the [mobile](https://github.com/GeneralSting/Online-Waiter-Android) and web application
+  - orders made through [mobile application](https://github.com/GeneralSting/Online-Waiter-Android) that are an integral part of this project will be displayed ❗
 
-In the project directory, you can run:
+### Keywords
+* Web React application
+* Firebase - Realtime Database - google-services.json included for establishing connection with database
+* Waiters
+* Orders system
 
-### `npm start`
-
-Runs the app in the development mode.\
+### How to use
+1. git clone https://github.com/GeneralSting/Online-Waiter-WebApp
+2. run terminal command - npm install
+3. run terminal command - npm start
+   - Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Login
 
-### `npm test`
+- in order to be able to log in with a certain phone number, it must be registered in the database and in Firebase Authentication
+- OTP, one-time password is sent on mobile phone
+- mobile phone numbers that you can use to log in:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Number      | Code |  Role |
+| ----------- | ----------- |----------|
+| +385976106153      |654321| Waiter       |
+| +385976106154   |654321| Waiter        |
+| +385976106155   |123456| Owner       |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center">
+  
+![webApp_Login](https://github.com/GeneralSting/Online-Waiter-WebApp/assets/100438690/47d45241-2048-4a6b-90b8-1301d3ff0bc0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<hr>
+<br>
 
-### `npm run eject`
+### Object registration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align="center">
+  
+![webApp_Registration](https://github.com/GeneralSting/Online-Waiter-WebApp/assets/100438690/df89ca14-ac27-4e5b-8f0c-1bc34a8d10e1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<hr>
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### User interface logged waiter
 
-## Learn More
+<div align="center">
+  
+![webApp_Main](https://github.com/GeneralSting/Online-Waiter-WebApp/assets/100438690/240fcbe5-a2ef-4fd8-8c98-accda920de0a)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>

@@ -26,11 +26,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - OTP, one-time password is sent on mobile phone
 - mobile phone numbers that you can use to log in:
 
-| Number      | Code |  Role |
-| ----------- | ----------- |----------|
-| +385976106153      |654321| Waiter       |
-| +385976106154   |654321| Waiter        |
-| +385976106155   |123456| Owner       |
+| Number      | Code | 
+| ----------- | ----------- |
+| +385976106153      |654321| 
+| +385976106154   |654321| 
 
 
 <div align="center">
